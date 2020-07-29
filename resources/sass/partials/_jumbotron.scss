@@ -1,0 +1,21 @@
+.row {
+  .side {
+    width: 50%;
+    float: left;
+    padding: 70px 0;
+    font-size: 1.2em;
+    h1 {
+      font-size: 2.9em;
+      span {
+        display: block;
+        font-weight: normal;
+      }
+    }
+    h3 {
+      margin: 20px 0;
+    }
+    li {
+      line-height: 1.8em;
+    }
+  }
+}

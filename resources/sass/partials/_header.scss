@@ -9,14 +9,17 @@ header {
   }
   nav {
     align-self: center;
-    li {
-      display: inline-block;
-      margin-left: 10px;
-      a {
+    ul {
+      list-style: none;
+      li {
         display: inline-block;
-        padding: 10px;
-        text-transform: uppercase;
-        color: $company_darkblue;
+        margin-left: 10px;
+        a {
+          display: inline-block;
+          padding: 10px;
+          text-transform: uppercase;
+          color: $company_darkblue;
+        }
       }
     }
   }

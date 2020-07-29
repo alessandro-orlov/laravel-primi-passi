@@ -12,16 +12,23 @@
   max-width: 1070px;
   margin: 0 auto;
 }
+.row {
+  content: '';
+  display: table;
+  clear: both;
+}
 .center {
   text-align: center;
 }
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  color: $company_darkblue;
 }
-ul {
-  list-style: none;
+h3 {
+  margin-top: 40px;
 }
+
 a {
   text-decoration: none;
   &.big-btn {
@@ -35,4 +42,9 @@ a {
 img {
   width: 100%;
   display: block;
+}
+
+p {
+  margin: 20px 0;
+  line-height: 25px;
 }

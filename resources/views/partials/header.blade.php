@@ -8,7 +8,7 @@
       <li><a href="{{ route('privacy') }}">privacy policy</a></li>
       <li><a href="{{ url('/welcome') }}">welcome laravel</a></li>
       <li>
-        <a class="big-btn"href="#">canditati ora</a>
+        <a class="big-btn"href="https://www.boolean.careers/iscriviti">canditati ora</a>
       </li>
     </ul>
   </nav>
