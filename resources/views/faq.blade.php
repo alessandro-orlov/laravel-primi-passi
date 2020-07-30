@@ -15,25 +15,29 @@
       <div class="col-50 bg-grey">
         <h2>Prima del corso</h3>
         @foreach ($faqs_list_left as $faq)
-          <h3>{{ $faq['domanda'] }}
-            <span class="toggle-faq active">
-              <span class="minus"><i class="fas fa-minus"></i></span>
-              <span class="plus visible"><i class="fas fa-plus"></i></span>
-            </span>
-          </h3>
-          <p class="domanda">{{ $faq['risposta'] }}</p>
+          <div class="faq-question">
+            <h3>{{ $faq['domanda'] }}
+              <span class="toggle-faq active">
+                <span class="minus"><i class="fas fa-minus"></i></span>
+                <span class="plus visible"><i class="fas fa-plus"></i></span>
+              </span>
+            </h3>
+            <p class="domanda">{{ $faq['risposta'] }}</p>
+          </div>
         @endforeach
       </div>
       <div class="col-50 bg-darkblue">
         <h2>Dopo il corso</h3>
         @foreach ($faqs_list_right as $faq)
+        <div class="faq-question">
           <h3>{{ $faq['domanda'] }}
-            <span class="toggle-faq active">
+            <span class="toggle-faq">
               <span class="minus"><i class="fas fa-minus"></i></span>
               <span class="plus visible"><i class="fas fa-plus"></i></span>
             </span>
           </h3>
           <p class="domanda">{{ $faq['risposta'] }}</p>
+        </div>
         @endforeach
       </div>
     </div>

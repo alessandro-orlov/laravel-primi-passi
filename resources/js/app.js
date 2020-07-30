@@ -3,16 +3,14 @@ require('./bootstrap');
 $(document).ready(function() {
 
 
-  $('span.toggle-faq').click(function() {
+  $('.faq-question').click(function() {
 
-    var thisBtn = $(this);
+    var thisQuestion = $(this);
 
-    console.log(thisBtn);
+      thisQuestion.find('.minus').toggleClass('visible');
+      thisQuestion.find('.plus').toggleClass('visible');
 
-      thisBtn.find('.minus').toggleClass('visible');
-      thisBtn.find('.plus').toggleClass('visible');
-
-      thisBtn.parent().sibling('.domanda').slideToggle('active');
+      thisQuestion.find('.domanda').slideToggle('active');
 
   });
 
