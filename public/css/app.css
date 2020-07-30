@@ -143,6 +143,26 @@ main .faq-box {
   flex-wrap: wrap;
 }
 
+main .faq-box span.minus,
+main .faq-box span.plus {
+  cursor: pointer;
+  display: none;
+  float: right;
+}
+
+main .faq-box span.minus.visible,
+main .faq-box span.plus.visible {
+  display: block;
+}
+
+main .faq-box p.domanda {
+  display: none;
+}
+
+main .faq-box p.active {
+  display: block;
+}
+
 main li {
   margin-left: 40px;
   line-height: 24px;

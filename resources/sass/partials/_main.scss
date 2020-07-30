@@ -13,6 +13,21 @@ main {
   .faq-box {
     display: flex;
     flex-wrap: wrap;
+    span.minus,
+    span.plus{
+      cursor: pointer;
+      display: none;
+      float: right;
+      &.visible {
+        display: block;
+      }
+    }
+    p.domanda {
+      display: none;
+    }
+    p.active {
+      display: block;
+    }
   }
   li {
     margin-left: 40px;
