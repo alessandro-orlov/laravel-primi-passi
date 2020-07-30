@@ -15,6 +15,7 @@
 }
 
 .row {
+  width: 100%;
   content: "";
   display: table;
   clear: both;
@@ -30,8 +31,17 @@ body {
   color: #1b3c59;
 }
 
+h1 {
+  font-size: 2.4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
 h3 {
   margin-top: 40px;
+  font-size: 1.8em;
 }
 
 a {
@@ -104,6 +114,7 @@ header nav ul li a {
 }
 
 .row .side h3 {
+  font-size: 1.2em;
   margin: 20px 0;
 }
 
@@ -113,7 +124,7 @@ header nav ul li a {
 
 main {
   position: relative;
-  min-height: 600px;
+  min-height: 500px;
 }
 
 main .center-test {
@@ -123,37 +134,69 @@ main .center-test {
   transform: translate(-50%, -50%);
 }
 
+main .privacy-box {
+  padding: 50px 0;
+}
+
+main .faq-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 main li {
   margin-left: 40px;
   line-height: 24px;
 }
 
-main #blue-section {
-  background-color: #1b3c59;
+main #section {
   min-height: 100px;
   padding: 20px 0;
-  color: #fff;
+  margin-bottom: 20px;
 }
 
-main #blue-section .info-box {
+main #section .info-box {
   text-align: center;
   float: left;
   width: calc(100% / 3);
   padding: 0 40px;
 }
 
-main #blue-section .info-box h2 {
-  font-size: 3em;
+main #section .info-box h2 {
+  font-size: 2.8em;
   font-weight: 400;
 }
 
-main #blue-section .info-box p {
+main #section .info-box p {
   font-size: 1.2em;
   line-height: 1.6em;
 }
 
+main .bg-grey {
+  background-color: #e8ebf1;
+  color: #1b3c59;
+}
+
+main .bg-darkblue {
+  background-color: #1b3c59;
+  color: #fff;
+}
+
+main .col-50 {
+  max-width: 50%;
+  padding: 20px 80px;
+  float: left;
+}
+
+main .faq-jumbo {
+  padding: 50px 80px;
+  font-size: 1.2em;
+}
+
+main .faq-jumbo h1 {
+  font-weight: normal;
+}
+
 footer {
-  margin-top: 20px;
   min-height: 300px;
   background-color: #1b3c59;
   color: #fff;

@@ -13,6 +13,7 @@
   margin: 0 auto;
 }
 .row {
+  width: 100%;
   content: '';
   display: table;
   clear: both;
@@ -25,8 +26,15 @@ body {
   font-size: 16px;
   color: $company_darkblue;
 }
+h1 {
+  font-size: 2.4em
+}
+h2 {
+  font-size: 2em;
+}
 h3 {
   margin-top: 40px;
+  font-size: 1.8em;
 }
 
 a {

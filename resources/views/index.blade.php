@@ -9,7 +9,7 @@
   <main>
     @include('/partials/jumbotron')
 
-    <section id="blue-section">
+    <section id="section" class="bg-darkblue">
       <div class="container">
         <div class="row">
 

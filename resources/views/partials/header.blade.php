@@ -6,6 +6,7 @@
     <ul>
       <li><a href="{{ route('index') }}">home</a></li>
       <li><a href="{{ route('privacy') }}">privacy policy</a></li>
+      <li><a href="{{ route('faq') }}">FAQ</a></li>
       <li><a href="{{ url('/welcome') }}">welcome laravel</a></li>
       <li>
         <a class="big-btn"href="https://www.boolean.careers/iscriviti">canditati ora</a>
