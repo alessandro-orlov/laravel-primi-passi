@@ -1,6 +1,7 @@
 main {
   position: relative;
   min-height: 500px;
+  margin-top: 80px;
   .center-test {
     position: absolute;
     top: 50%;
@@ -15,7 +16,6 @@ main {
     flex-wrap: wrap;
     span.minus,
     span.plus{
-      cursor: pointer;
       display: none;
       float: right;
       &.visible {
@@ -61,8 +61,8 @@ main {
     color: #fff;
   }
   .col-50 {
-    max-width: 50%;
-    padding: 20px 80px;
+    width: 50%;
+    padding: 50px 80px;
     float: left;
   }
   .faq-jumbo {
@@ -71,5 +71,8 @@ main {
     h1 {
       font-weight: normal;
     }
+  }
+  .faq-question {
+    cursor: pointer;
   }
 }
